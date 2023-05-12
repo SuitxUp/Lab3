@@ -1,0 +1,15 @@
+[bstpier1@csslab14 Lab3]$ ./Lab3 hamlet.txt 1
+Unix read's elapsed time        = 59897
+Standard fread's elapsed time   = 9
+[bstpier1@csslab14 Lab3]$ ./Lab3 hamlet.txt 512
+Unix read's elapsed time        = 176
+Standard fread's elapsed time   = 10
+[bstpier1@csslab14 Lab3]$ ./Lab3 hamlet.txt 1024
+Unix read's elapsed time        = 105
+Standard fread's elapsed time   = 10
+[bstpier1@csslab14 Lab3]$ ./Lab3 hamlet.txt 2048
+Unix read's elapsed time        = 80
+Standard fread's elapsed time   = 12
+[bstpier1@csslab14 Lab3]$ ./Lab3 hamlet.txt 4096
+Unix read's elapsed time        = 54
+Standard fread's elapsed time   = 13
